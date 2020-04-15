@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828e8c58-711a-4807-9169-464c3c196708" name="Default Changelist" comment="" />
+    <list default="true" id="828e8c58-711a-4807-9169-464c3c196708" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coronavirus-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coronavirus-tracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/services/CoronaVirusDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/services/CoronaVirusDataService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,8 +39,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+        <option value="XSLT" />
+      </set>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="CoronavirusTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -74,30 +99,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582863309026</updated>
+      <workItem from="1586982437524" duration="360000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure" timestamp="1586982459523">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1586982459523" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586982646845">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586982646845" />
     <state x="709" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1582866882967">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
     <state x="709" y="236" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1045@0.23.1792.1045" timestamp="1582866882967" />
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1582877759182">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state x="801" y="445" width="308" height="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586982515093">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="801" y="445" width="308" height="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586982515093" />
+    <state x="697" y="317" width="515" height="479" key="EnvironmentVariablesDialog" timestamp="1586982638613">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="697" y="317" width="515" height="479" key="EnvironmentVariablesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586982638613" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1586982819554">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1582877759182" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1582877759182">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819554" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1586982819554">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1582877759182" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1582877759181">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819554" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1586982819553">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1582877759181" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1582877759182">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819553" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1586982819554">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1582877759182" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819554" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1586982819556">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819556" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1586982819555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819555" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1586982819555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819555" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1586982819556">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586982819556" />
     <state x="397" y="184" key="SettingsEditor" timestamp="1582864209243">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
@@ -114,5 +179,16 @@
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
     <state x="561" y="266" width="670" height="676" key="search.everywhere.popup/0.23.1792.1045@0.23.1792.1045" timestamp="1582864324011" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/services/CoronaVirusDataService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
