@@ -1,6 +1,7 @@
 package io.javabrains.coronavirustracker.services;
 
 import io.javabrains.coronavirustracker.models.LocationStats;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -16,6 +17,7 @@ import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @Service
 public class CoronaVirusDataService {
 
@@ -51,6 +53,7 @@ public class CoronaVirusDataService {
             newStats.add(locationStat);
         }
         this.allStats = newStats;
+        log.info("Updated Statistics!");
     }
 
 }

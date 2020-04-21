@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.javabrains</groupId>
 	<artifactId>coronavirus-tracker</artifactId>
-	<version>0.0.3-OXSO-SNAPSHOT</version>
+	<version>0.0.4-OXSO-SNAPSHOT</version>
 	<name>coronavirus-tracker</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -49,6 +49,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
 
