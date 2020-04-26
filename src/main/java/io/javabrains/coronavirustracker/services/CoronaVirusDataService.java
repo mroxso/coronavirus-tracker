@@ -1,6 +1,7 @@
 package io.javabrains.coronavirustracker.services;
 
 import io.javabrains.coronavirustracker.models.LocationStats;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -16,10 +17,12 @@ import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @Service
 public class CoronaVirusDataService {
 
-    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
+    //private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
+    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 
     private List<LocationStats> allStats = new ArrayList<>();
 
@@ -28,7 +31,8 @@ public class CoronaVirusDataService {
     }
 
     @PostConstruct
-    @Scheduled(cron = "* * 1 * * *")
+    //@Scheduled(cron = "* * 1 * * *")
+    @Scheduled(fixedRate = 14400000)
     public void fetchVirusData() throws IOException, InterruptedException {
         List<LocationStats> newStats = new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
@@ -49,6 +53,7 @@ public class CoronaVirusDataService {
             newStats.add(locationStat);
         }
         this.allStats = newStats;
+        log.info("Updated Statistics!");
     }
 
 }
