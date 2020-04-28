@@ -34,6 +34,11 @@
                 <span>Last Update:</span>
                 <span th:text="${lastUpdated}"></span>
             </p>
+            <hr class="my-4" />
+            <p>
+                <span>Version:</span>
+                <span th:text="${appVersion}"></span>
+            </p>
         </div>
 
         <table class="table">
@@ -50,6 +55,8 @@
                 <td th:text="${locationStat.diffFromPrevDay}">0</td>
             </tr>
         </table>
+
+        <hr />
     </div>
 </body>
 
