@@ -22,10 +22,13 @@ public class HomeController {
         int totalReportedCases = allStats.stream().mapToInt(stat -> stat.getLatestTotalCases()).sum();
         int totalNewCases = allStats.stream().mapToInt(stat -> stat.getDiffFromPrevDay()).sum();
         Date lastUpdated = coronaVirusDataService.getLastUpdated();
+        String dataSourceUrl = coronaVirusDataService.getDataSourceUrl();
+
         model.addAttribute("locationStats", allStats);
         model.addAttribute("totalReportedCases", totalReportedCases);
         model.addAttribute("totalNewCases", totalNewCases);
         model.addAttribute("lastUpdated", lastUpdated);
+        model.addAttribute("dataSourceUrl", dataSourceUrl);
 
         return "home";
     }
