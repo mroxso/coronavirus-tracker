@@ -15,20 +15,27 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Slf4j
 @Service
 public class CoronaVirusDataService {
 
-    //private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
     private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 
     private List<LocationStats> allStats = new ArrayList<>();
 
+    private Date lastUpdated;
+
     public List<LocationStats> getAllStats() {
         return allStats;
     }
+
+    public Date getLastUpdated() { return lastUpdated; }
+
+    public String getDataSourceUrl() { return VIRUS_DATA_URL; }
+
 
     @PostConstruct
     //@Scheduled(cron = "* * 1 * * *")
@@ -53,6 +60,7 @@ public class CoronaVirusDataService {
             newStats.add(locationStat);
         }
         this.allStats = newStats;
+        lastUpdated = new Date();
         log.info("Updated Statistics!");
     }
 
